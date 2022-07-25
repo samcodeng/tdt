@@ -1,0 +1,24 @@
+[14-Jul-2021 07:35:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php:833
+Stack trace:
+#0 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(833): ReflectionClass->__construct('view')
+#1 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build('view')
+#2 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(1365): Illuminate in /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 835
+[14-Jul-2021 07:36:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php:833
+Stack trace:
+#0 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(833): ReflectionClass->__construct('view')
+#1 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build('view')
+#2 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(1365): Illuminate in /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 835
+[14-Jul-2021 07:36:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php:833
+Stack trace:
+#0 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(833): ReflectionClass->__construct('view')
+#1 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build('view')
+#2 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php(1365): Illuminate in /home/irentexq/hifive.ng/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 835
